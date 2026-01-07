@@ -57,8 +57,8 @@ class _AdminLoginScreenState extends State<AdminLoginScreen> {
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
     colors: [
-      Color(0xFFFBC2EB), // Soft Pink
-      Color(0xFFA6C1EE), // Soft Blue/Purple
+      Color(0xFF746BAE), // Soft Pink
+      Color(0xFF5E7CF1), // Soft Blue/Purple
     ],
   ),
 ),
