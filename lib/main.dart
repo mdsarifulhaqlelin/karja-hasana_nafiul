@@ -1,5 +1,6 @@
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:karja_hasana/screens/admin_home_screen.dart';
 import 'package:karja_hasana/screens/adminloginScreen.dart';
 import 'screens/aboutAdminScreen.dart';
@@ -29,6 +30,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'কর্জে হাসানাহ',
       theme: ThemeData(
+        textTheme: GoogleFonts.notoSansBengaliTextTheme(),
         // <-- লাইট থিম
         colorScheme: ColorScheme.fromSeed(
           seedColor: Colors.deepPurple,
